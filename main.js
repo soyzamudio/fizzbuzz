@@ -2,6 +2,7 @@ var fizz = function() {
   var fizzCount = 0;
   var buzzCount = 0;
   var fizzBuzzCount = 0;
+
   for(var i = 1; i <= 100; i++) {
     if (i % 3 === 0) {
       if (i % 5 === 0){
@@ -17,9 +18,7 @@ var fizz = function() {
     }
   }
 
-  console.log("Fizz:" + fizzCount);
-  console.log("Buzz:" + buzzCount);
-  console.log("FizzBuzz:" + fizzBuzzCount);
+  console.log("\nFizz:" + fizzCount + "\nBuzz:" + buzzCount + "\nFizzBuzz:" + fizzBuzzCount);
 }
 
 fizz();
